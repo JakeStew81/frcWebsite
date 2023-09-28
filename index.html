@@ -13,7 +13,7 @@
         <p>
             First Robotics Competition, or FRC, is a robotics competition for high school students. 
             Each year, a game is released, and teams of students have 8-10 weeks to design, build, test, wire, and program a robot for that game.
-        <img src="Images/frcEvent.jpeg" alt="frcEvent" />
+        <img src="Images/frcEvent.jpeg" alt="frcEvent" />g
     </article>
     <article>
         <h1>Outside of the Competition</h1>
@@ -30,5 +30,19 @@
             <a href="https://twitter.com/FIRSTweets">Twitter</a> |
             <a href="https://www.instagram.com/first_offical_">Instagram</a>
         </p>
+        <a id="vLink1" href="http://validator.w3.org/check?uri=https://jakestew81.github.io/frcWebsite/"><strong> HTML </strong> Valid! </a> |
+        <a id="vLink2" href="http://jigsaw.w3.org/css-validator/validator?uri=https://jakestew81.github.io/frcWebsite/?profile=css3"><strong> CSS </strong> Valid! </a>
     </footer>
+
+    <script>
+        function init() {
+          var loc = window.location.href;
+          var HTMLvalidLinkStr = 'http://validator.w3.org/check?uri=' + loc;
+          var CSSvalidLinkStr = 'http://jigsaw.w3.org/css-validator/validator?uri=' +
+                                loc + '?profile=css3';
+          document.getElementById("vLink1").setAttribute("href", HTMLvalidLinkStr);
+          document.getElementById("vLink2").setAttribute("href", CSSvalidLinkStr);
+        }
+        window.onload = init;
+    </script>
 </body>
