@@ -5,7 +5,7 @@
     </head>
     <body>
         <header>
-            <img src="Media/firstLogo.png" alt="FIRST Logo" />
+            <img class="floatright" src="Media/firstLogo.png" height='300' alt="FIRST Logo" />
         </header>
         <nav>
             <br>
@@ -19,7 +19,6 @@
                 First Robotics Competition, or FRC, is a robotics competition for high school students. 
                 Each year, a game is released, and teams of students have 8-10 weeks to design, build, test, wire, and program a robot for that game.
                 <br>
-                <img src="Media/frcEvent.jpeg" alt="frcEvent" />
             </p>
         </article>
         <article>
@@ -28,21 +27,30 @@
                 Outisde of the competition, teams are encouraged to make an impact on their community, and introduce STEM to the younger generation.
                 Teams also have to fundraise for their competition. The methods for this vary wildly. Many teams rely on sponsorships from large companies, while others do various jobs to raise money.
             </p>
+            <img src="Media/frcEvent.jpeg" alt="frcEvent" height='500'/>
         </article>
-        <article>
-            <h1> General information </h1>
-            <video height="210" controls = "controls">
-                <source src = "Media/frcVideo.mp4" type = "video/mp4" />
-                Your browser does not support the HTML5 video element.
-            </video>
-        </article>
-        <article>
-            <h1>2023 Game: Charged Up</h1>
-            <audio controls="controls">
-                <source src="Media/frcAudio.mp3" type="audio/mpeg" />
-                Your browser does not support the HTML5 audio element.
-            </audio>
-        </article>
+        <div class="row">
+            <div class="columnTitle">
+                <h1> General information </h1>
+            </div>
+            <div class="columnTitle">
+                <h1>2023 Game: Charged Up</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="columnContent">
+                <video height="210" controls = "controls">
+                    <source class="floatright" src="Media/frcVideo.mp4" type="video/mp4" />
+                    Your browser does not support the HTML5 video element.
+                </video>
+            </div>
+            <div class="columnContent">
+                <audio controls="controls">
+                    <source src="Media/frcAudio.mp3" type="audio/mpeg" />
+                    Your browser does not support the HTML5 audio element.
+                </audio>
+            </div>
+        </div>
         <footer>
             <p>
                 FOLLOW US ON:
