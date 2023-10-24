@@ -26,11 +26,15 @@ article {
 nav {
     background : #d8d8d8;
     font-weight : bold;
-    float : left;
+    float: left;
     height : 1281px;
     border-right : solid;
     border-color : #000000;
     border-width : 3px;
+
+    background-image: url("Media/firstLogoTransparent.png");
+    background-repeat: repeat-y;
+    background-size: contain;
 }
 
 .floatright {
@@ -60,4 +64,8 @@ nav {
 div {
     column-count : 2;
     text-align : center;
+}
+
+br ~ a {
+    padding: 10px;
 }
