@@ -101,3 +101,32 @@ video:hover {
     height: 100px;
     transform: rotate(360deg);
 }
+
+@keyframes animationThingie {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: -20px;
+        top: 0px;
+    }
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+    75% {
+        left: 20px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+h2:hover {
+    position: relative;
+    -webkit-animation-name: animationThingie;
+    -webkit-animation-duration: 4s;
+}
