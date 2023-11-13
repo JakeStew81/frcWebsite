@@ -92,3 +92,12 @@ br ~ a {
 #flippyImage{
     -webkit-transform: rotateY(180deg);
 }
+
+.spinnyVideo {
+    transition-duration: 10s;
+}
+
+video:hover {
+    height: 100px;
+    transform: rotate(360deg);
+}
