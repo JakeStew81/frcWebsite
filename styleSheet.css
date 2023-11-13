@@ -85,3 +85,10 @@ div {
 br ~ a {
     padding: 5px;
 }
+
+#tiltyAudio {
+    -webkit-transform: rotate(345deg);
+}
+#flippyImage{
+    -webkit-transform: rotateY(180deg);
+}
