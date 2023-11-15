@@ -82,6 +82,11 @@ div {
     text-align : center;
 }
 
+.resizable {
+    resize: both;
+    overflow: auto;
+}
+
 br ~ a {
     padding: 5px;
 }
